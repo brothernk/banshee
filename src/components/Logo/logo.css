@@ -1,0 +1,12 @@
+@import url("https://use.typekit.net/lzb1rwt.css");
+.logo {
+  align-self: flex-end; }
+  .logo .menu {
+    margin: 6px auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "mr-eaves-modern",sans-serif; }
+  .logo img {
+    max-height: 50px;
+    margin-top: 8px; }

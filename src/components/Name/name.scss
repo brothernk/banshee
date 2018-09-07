@@ -1,0 +1,77 @@
+// Typekit Fonts =====================================================
+@import url("https://use.typekit.net/lzb1rwt.css");
+
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+#landing-pg {
+    align-items: center;
+    align-content: center;
+    background-color:#2d152c;
+    justify-content: space-around;
+
+    .line-one {
+        margin-top:-40px;
+        width: 220vh;
+        height:200px;
+        // border-bottom: 3.1vw solid $orange;
+        // border-left: 3.1vw solid $orange;
+        border-bottom: 40px solid $orange;
+        border-left: 40px solid $orange;
+        border-radius: 80px;
+        transform:
+            translateX(-51vw)
+            rotate(-90deg); 
+        position: absolute;
+    }
+
+    .line-two {
+        margin-top:-40px;
+        width: 232vh;
+        height:250px;
+        // border-top: 2.4vw solid $mauve;
+        // border-right: 2.4vw solid $mauve !important;
+        border-top: 31px solid $mauve;
+        border-right: 31px solid $mauve;
+        border-radius: 110px;
+        transform:
+            translateX(-50vw)
+            rotate(90deg);
+        position: absolute;
+    }
+
+    .line-three {
+        margin-top:-40px;
+        width: 140vh;
+        height:250px;
+        // border-bottom: 2.4vw solid $purple;
+        border-bottom: 31px solid $purple;
+        transform:
+            translateX(-47vw)
+            rotate(-90deg);
+        position: absolute;
+    }
+
+    .company-name {
+        margin:0 auto;
+        margin-left:23vw;
+        color:$white;
+        font-size:20vw;
+        font-family: "hooligan-jf";
+        text-transform: uppercase;
+        z-index: 1;
+    }
+
+    .mission-statement{
+        color:$orange;
+        align-self: flex-end;
+        font-size:25px;
+        z-index: 1;
+    }
+}

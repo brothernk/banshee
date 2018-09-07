@@ -1,0 +1,51 @@
+// Typekit Fonts =====================================================
+@import url("https://use.typekit.net/lzb1rwt.css");
+
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+//Global Styling =====================================================
+* { 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    margin:0 auto;
+    font-family: "mr-eaves-modern", sans-serif;
+    background-color:$darkpurple;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    min-height:110vh;
+    max-width:100vw;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+}
+//Name  ==========================================================
+@import "../components/Name/name.scss";
+
+//Logo  ==========================================================
+@import "../components/Logo/logo.scss";
+
+//About  ==========================================================
+@import "../components/About/about.scss";
+
+//What  ==========================================================
+@import "../components/What/what.scss";
+
+//Work  ==========================================================
+@import "../components/Work/work.scss";

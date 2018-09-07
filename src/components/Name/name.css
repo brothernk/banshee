@@ -1,0 +1,44 @@
+@import url("https://use.typekit.net/lzb1rwt.css");
+#landing-pg {
+  align-items: center;
+  align-content: center;
+  background-color: #2d152c;
+  justify-content: space-around; }
+  #landing-pg .line-one {
+    margin-top: -40px;
+    width: 220vh;
+    height: 200px;
+    border-bottom: 40px solid #D36135;
+    border-left: 40px solid #D36135;
+    border-radius: 80px;
+    transform: translateX(-51vw) rotate(-90deg);
+    position: absolute; }
+  #landing-pg .line-two {
+    margin-top: -40px;
+    width: 232vh;
+    height: 250px;
+    border-top: 31px solid #785A64;
+    border-right: 31px solid #785A64;
+    border-radius: 110px;
+    transform: translateX(-50vw) rotate(90deg);
+    position: absolute; }
+  #landing-pg .line-three {
+    margin-top: -40px;
+    width: 140vh;
+    height: 250px;
+    border-bottom: 31px solid #B695AC;
+    transform: translateX(-47vw) rotate(-90deg);
+    position: absolute; }
+  #landing-pg .company-name {
+    margin: 0 auto;
+    margin-left: 23vw;
+    color: #FFFFFF;
+    font-size: 20vw;
+    font-family: "hooligan-jf";
+    text-transform: uppercase;
+    z-index: 1; }
+  #landing-pg .mission-statement {
+    color: #D36135;
+    align-self: flex-end;
+    font-size: 25px;
+    z-index: 1; }

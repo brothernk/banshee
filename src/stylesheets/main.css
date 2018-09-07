@@ -1,0 +1,159 @@
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+* {
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  font-family: "mr-eaves-modern", sans-serif;
+  background-color: #331831;
+  text-align: center;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+.page {
+  min-height: 110vh;
+  max-width: 100vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column; }
+
+#landing-pg {
+  align-items: center;
+  align-content: center;
+  background-color: #2d152c;
+  justify-content: space-around; }
+  #landing-pg .line-one {
+    margin-top: -40px;
+    width: 220vh;
+    height: 200px;
+    border-bottom: 40px solid #D36135;
+    border-left: 40px solid #D36135;
+    border-radius: 80px;
+    transform: translateX(-51vw) rotate(-90deg);
+    position: absolute; }
+  #landing-pg .line-two {
+    margin-top: -40px;
+    width: 232vh;
+    height: 250px;
+    border-top: 31px solid #785A64;
+    border-right: 31px solid #785A64;
+    border-radius: 110px;
+    transform: translateX(-50vw) rotate(90deg);
+    position: absolute; }
+  #landing-pg .line-three {
+    margin-top: -40px;
+    width: 140vh;
+    height: 250px;
+    border-bottom: 31px solid #B695AC;
+    transform: translateX(-47vw) rotate(-90deg);
+    position: absolute; }
+  #landing-pg .company-name {
+    margin: 0 auto;
+    margin-left: 23vw;
+    color: #FFFFFF;
+    font-size: 20vw;
+    font-family: "hooligan-jf";
+    text-transform: uppercase;
+    z-index: 1; }
+  #landing-pg .mission-statement {
+    color: #D36135;
+    align-self: flex-end;
+    font-size: 25px;
+    z-index: 1; }
+
+.logo {
+  align-self: flex-end; }
+  .logo .menu {
+    margin: 6px auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "mr-eaves-modern",sans-serif; }
+  .logo img {
+    max-height: 50px;
+    margin-top: 8px; }
+
+#about-pg {
+  background-color: #B695AC;
+  min-height: 100vh;
+  max-width: 100vw; }
+  #about-pg .page-header {
+    background-color: #f1dac4;
+    text-align: left;
+    align-self: flex-start;
+    z-index: 1;
+    padding: 12px 105px;
+    color: #472f45;
+    font-size: 55px;
+    font-family: "hooligan-jf", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: -75px 0 0 10px;
+    box-shadow: 0 5px 20px -4px #785A64; }
+  #about-pg .about-us-content {
+    display: flex;
+    margin: 40px 0 0 100px;
+    justify-content: space-around; }
+    #about-pg .about-us-content .team-info {
+      padding: 30px;
+      margin: 10px 10px;
+      box-shadow: 5px 10px 20px #785A64;
+      background-color: #B695AC;
+      border-radius: 1px; }
+      #about-pg .about-us-content .team-info img {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        border: 5px solid #785A64; }
+      #about-pg .about-us-content .team-info h2, #about-pg .about-us-content .team-info h4, #about-pg .about-us-content .team-info p {
+        margin: 0; }
+      #about-pg .about-us-content .team-info h2 {
+        padding: 10px 0 0 0;
+        font-size: 32px; }
+      #about-pg .about-us-content .team-info h4 {
+        font-size: 19px; }
+      #about-pg .about-us-content .team-info hr {
+        border: 0;
+        height: 3px;
+        background-color: #331831;
+        width: 115px;
+        border-radius: 10px;
+        margin: 15px auto; }
+      #about-pg .about-us-content .team-info p {
+        font-size: 20px;
+        text-align: left; }
+      #about-pg .about-us-content .team-info .port-btn {
+        padding: 10px;
+        background-color: #785A64;
+        border: none;
+        font-size: 20px;
+        cursor: pointer; }
+  #about-pg .company-explanation {
+    background-color: #331831;
+    align-self: flex-end;
+    color: #dad5d9;
+    font-size: 24px;
+    max-width: 730px;
+    margin: 50px 0 -80px 0;
+    padding: 12px 40px;
+    z-index: 2; }
+
+#what-pg {
+  background-color: #D36135;
+  padding: 0; }
+  #what-pg .what-content {
+    background-color: #f1dac4;
+    margin: 0 auto;
+    width: 80vw;
+    height: 110vh; }
+
+#work-pg {
+  z-index: 5; }

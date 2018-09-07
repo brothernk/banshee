@@ -1,0 +1,30 @@
+// Typekit Fonts =====================================================
+@import url("https://use.typekit.net/lzb1rwt.css");
+
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+.logo {
+    align-self: flex-end;
+
+    .menu {
+        margin:6px auto;
+        border-bottom:2px solid white;
+        padding-bottom: 5px;
+        color:white;
+        font-family: "mr-eaves-modern",sans-serif;
+    }
+
+    img{
+        max-height:50px;
+        // background-color: #4f451b;
+        // box-shadow: 3px 3px #342e12;
+        margin-top:8px;
+    }
+}
