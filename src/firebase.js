@@ -2,12 +2,12 @@ import firebase from 'firebase'
 
 //Initialize Firebase
 const config = {
-    apiKey: "AIzaSyCY4FLDvafkjzom9ohO-44AiNwfy5DH0c8",
-    authDomain: "banshee-d8cc7.firebaseapp.com",
-    databaseURL: "https://banshee-d8cc7.firebaseio.com",
-    projectId: "banshee-d8cc7",
-    storageBucket: "banshee-d8cc7.appspot.com",
-    messagingSenderId: "1009469904379"
+    apiKey: "AIzaSyAsa2tYLuF7YjHTlO6_UofseaM9VG6K9sA",
+    authDomain: "banshee-dev.firebaseapp.com",
+    databaseURL: "https://banshee-dev.firebaseio.com",
+    projectId: "banshee-dev",
+    storageBucket: "",
+    messagingSenderId: "1004620458099"
 }
 
 firebase.initializeApp(config);
