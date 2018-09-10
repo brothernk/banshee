@@ -12,55 +12,50 @@ $mauve:#785A64;
 
 #landing-pg {
     align-items: center;
-    align-content: center;
-    background-color:#2d152c;
     justify-content: space-around;
+    background-color:#2d152c;
 
     .line-one {
-        margin-top:-40px;
-        width: 220vh;
-        height:200px;
-        // border-bottom: 3.1vw solid $orange;
-        // border-left: 3.1vw solid $orange;
-        border-bottom: 40px solid $orange;
-        border-left: 40px solid $orange;
-        border-radius: 80px;
+        margin-top:-20vh;
+        width: 105vw;
+        height:40vw;
+        border-bottom: 3.1vw solid $orange;
+        border-left: 3.1vw solid $orange;
+        border-radius: 9vw;
         transform:
-            translateX(-51vw)
+            translateX(-63vw)
             rotate(-90deg); 
         position: absolute;
     }
 
     .line-two {
-        margin-top:-40px;
-        width: 232vh;
-        height:250px;
-        // border-top: 2.4vw solid $mauve;
-        // border-right: 2.4vw solid $mauve !important;
-        border-top: 31px solid $mauve;
-        border-right: 31px solid $mauve;
-        border-radius: 110px;
+        margin-top:-20vh;
+        width: 111vw;
+        height:40vw;
+        border-bottom: 2.4vw solid $mauve;
+        border-left: 2.4vw solid $mauve;
+        border-radius: 11.5vw;
         transform:
-            translateX(-50vw)
-            rotate(90deg);
+            translateX(-60vw)
+            rotate(-90deg);
         position: absolute;
     }
 
     .line-three {
-        margin-top:-40px;
-        width: 140vh;
-        height:250px;
-        // border-bottom: 2.4vw solid $purple;
-        border-bottom: 31px solid $purple;
+        margin-top:-20vh;
+        width: 117vw;
+        height:40vw;
+        border-bottom: 2.4vw solid $purple;
+        border-left: 2.4vw solid $purple;
+        border-radius: 14vw;
         transform:
-            translateX(-47vw)
+            translateX(-57vw)
             rotate(-90deg);
         position: absolute;
     }
 
     .company-name {
         margin:0 auto;
-        margin-left:23vw;
         color:$white;
         font-size:20vw;
         font-family: "hooligan-jf";
@@ -73,5 +68,21 @@ $mauve:#785A64;
         align-self: flex-end;
         font-size:25px;
         z-index: 1;
+    }
+}
+
+//Mobile Responsive  =================================================
+@media only screen and (max-width: 800px) {
+    #landing-pg{
+        .company-name {
+            margin:0;
+            font-size:27vw;
+        }
+        .mission-statement{
+            align-self: center;
+        }
+        .line-one, .line-two, .line-three {
+            display: none;
+        }
     }
 }

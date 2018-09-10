@@ -11,13 +11,50 @@ $olive: #84732B;
 $mauve:#785A64;
 
 #what-pg{
-    background-color: $orange;
+    background-color: $beige;
+    border-top:15px solid $mauve;
     padding:0;
+    max-height: 100vh;
 
     .what-content {
-        background-color:$beige;
-        margin:0 auto;
-        width:80vw;
-        height:110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:90vh;
+
+        .steps{
+            background:olive;
+            border:3px solid #695c22;
+            color:$beige;
+            width:200px;
+            margin:20px;
+        }
+    }
+
+    .line-one {
+        width: 70vw;
+        height:98.5vh;
+        border-bottom: 20px solid $darkpurple;
+        border-left: 20px solid transparent;
+        position: absolute;
+        right:0;
+    }
+
+    .line-two {
+        width: 85vw;
+        height:102.5vh;
+        border-bottom: 20px solid $mauve;
+        border-left: 20px solid transparent;
+        position: absolute;
+        right:0;
+    }
+
+    .line-three {
+        width: 95vw;
+        height:106.5vh;
+        border-bottom: 20px solid $orange;
+        border-left: 20px solid transparent;
+        position: absolute;
+        right:0;
     }
 }

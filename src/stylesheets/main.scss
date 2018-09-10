@@ -49,3 +49,10 @@ a {
 
 //Work  ==========================================================
 @import "../components/Work/work.scss";
+
+//Mobile Responsive  =================================================
+@media only screen and (max-width: 800px) {
+    .page {
+        padding:50px 10px;
+    }
+}

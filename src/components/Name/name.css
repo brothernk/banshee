@@ -1,37 +1,37 @@
 @import url("https://use.typekit.net/lzb1rwt.css");
 #landing-pg {
   align-items: center;
-  align-content: center;
-  background-color: #2d152c;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #2d152c; }
   #landing-pg .line-one {
-    margin-top: -40px;
-    width: 220vh;
-    height: 200px;
-    border-bottom: 40px solid #D36135;
-    border-left: 40px solid #D36135;
-    border-radius: 80px;
-    transform: translateX(-51vw) rotate(-90deg);
+    margin-top: -20vh;
+    width: 105vw;
+    height: 40vw;
+    border-bottom: 3.1vw solid #D36135;
+    border-left: 3.1vw solid #D36135;
+    border-radius: 9vw;
+    transform: translateX(-63vw) rotate(-90deg);
     position: absolute; }
   #landing-pg .line-two {
-    margin-top: -40px;
-    width: 232vh;
-    height: 250px;
-    border-top: 31px solid #785A64;
-    border-right: 31px solid #785A64;
-    border-radius: 110px;
-    transform: translateX(-50vw) rotate(90deg);
+    margin-top: -20vh;
+    width: 111vw;
+    height: 40vw;
+    border-bottom: 2.4vw solid #785A64;
+    border-left: 2.4vw solid #785A64;
+    border-radius: 11.5vw;
+    transform: translateX(-60vw) rotate(-90deg);
     position: absolute; }
   #landing-pg .line-three {
-    margin-top: -40px;
-    width: 140vh;
-    height: 250px;
-    border-bottom: 31px solid #B695AC;
-    transform: translateX(-47vw) rotate(-90deg);
+    margin-top: -20vh;
+    width: 117vw;
+    height: 40vw;
+    border-bottom: 2.4vw solid #B695AC;
+    border-left: 2.4vw solid #B695AC;
+    border-radius: 14vw;
+    transform: translateX(-57vw) rotate(-90deg);
     position: absolute; }
   #landing-pg .company-name {
     margin: 0 auto;
-    margin-left: 23vw;
     color: #FFFFFF;
     font-size: 20vw;
     font-family: "hooligan-jf";
@@ -42,3 +42,12 @@
     align-self: flex-end;
     font-size: 25px;
     z-index: 1; }
+
+@media only screen and (max-width: 800px) {
+  #landing-pg .company-name {
+    margin: 0;
+    font-size: 27vw; }
+  #landing-pg .mission-statement {
+    align-self: center; }
+  #landing-pg .line-one, #landing-pg .line-two, #landing-pg .line-three {
+    display: none; } }

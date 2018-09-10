@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {/* <Logo></Logo> */}
+        <Logo></Logo>
         <Name></Name>
         <About></About>
         <What></What>
