@@ -1,0 +1,21 @@
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+
+.modal-background{
+    background-color: $olive;
+}
+
+.modal-style{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-shadow: 5px 5px 30px $mauve;
+}

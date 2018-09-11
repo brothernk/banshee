@@ -1,0 +1,9 @@
+.modal-background {
+  background-color: #84732B; }
+
+.modal-style {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 30px #785A64; }
