@@ -18,7 +18,7 @@ $mauve:#785A64;
 
 body {
     margin:0 auto;
-    font-family: "mr-eaves-modern", sans-serif;
+    font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
     background-color:$darkpurple;
     text-align: center;
     overflow-x: hidden;
@@ -35,6 +35,7 @@ a {
     display: flex;
     flex-direction: column;
 }
+
 //Name  ==========================================================
 @import "../components/Name/name.scss";
 
@@ -49,6 +50,12 @@ a {
 
 //Work  ==========================================================
 @import "../components/Work/work.scss";
+
+//Modal  ==========================================================
+@import "../components/Modal/modal.scss";
+
+//Menu  ==========================================================
+@import "../components/Menu/menu.scss";
 
 //Mobile Responsive  =================================================
 @media only screen and (max-width: 800px) {

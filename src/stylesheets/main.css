@@ -4,13 +4,15 @@
 @import url("https://use.typekit.net/lzb1rwt.css");
 @import url("https://use.typekit.net/lzb1rwt.css");
 @import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 * {
   padding: 0;
   box-sizing: border-box; }
 
 body {
   margin: 0 auto;
-  font-family: "mr-eaves-modern", sans-serif;
+  font-family: "mr-eaves-modern", Arial, Helvetica, sans-serif;
   background-color: #331831;
   text-align: center;
   overflow-x: hidden; }
@@ -60,7 +62,7 @@ a {
     margin: 0 auto;
     color: #FFFFFF;
     font-size: 20vw;
-    font-family: "hooligan-jf";
+    font-family: "hooligan-jf", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     z-index: 1; }
   #landing-pg .mission-statement {
@@ -224,6 +226,68 @@ a {
 
 #work-pg {
   z-index: 5; }
+
+.modal-background {
+  background-color: #84732B; }
+
+.modal-style {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 30px #785A64; }
+
+.menu {
+  position: fixed;
+  right: 40px;
+  top: 30px;
+  font-size: 30px;
+  color: white;
+  z-index: 2; }
+  .menu p {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0; }
+  .menu .menu-icon {
+    max-width: 40px;
+    cursor: pointer; }
+  .menu .menu-icon:hover {
+    transform: scale(1.1);
+    transition: .15s; }
+
+.menu-background {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.menu-style {
+  background-color: #D36135;
+  height: 100%;
+  display: flex;
+  padding: 50px 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 5px solid #bd572f; }
+  .menu-style .menu-logo {
+    max-width: 65px;
+    max-height: 65px; }
+  .menu-style .menu-text {
+    display: flex;
+    flex-direction: column; }
+    .menu-style .menu-text .menu-nav, .menu-style .menu-text #contact-btn {
+      margin: 0;
+      padding: 8px 65px;
+      width: 100%;
+      font-size: 28px;
+      color: #f1dac4;
+      text-transform: uppercase;
+      font-family: "hooligan-jf";
+      letter-spacing: 1px;
+      border: none;
+      background: #D36135;
+      cursor: pointer; }
+    .menu-style .menu-text .menu-nav:hover, .menu-style .menu-text #contact-btn:hover {
+      background-color: #331831;
+      transition: .15s; }
 
 @media only screen and (max-width: 800px) {
   .page {

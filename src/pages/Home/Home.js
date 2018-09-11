@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import What from "../../components/What/What";
 import Work from "../../components/Work/Work";
 import Modal from "../../components/Modal/Modal";
+import Menu from "../../components/Menu/Menu";
 
 class Home extends Component {
   
@@ -17,6 +18,7 @@ class Home extends Component {
         <What></What>
         <Work></Work>
         <Modal></Modal>
+        <Menu></Menu>
       </div>
     );
   }
