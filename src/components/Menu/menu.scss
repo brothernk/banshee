@@ -1,0 +1,40 @@
+// Typekit Fonts =====================================================
+@import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+//Modal Styling =======================================================
+.menu-background {
+    background-color:transparent;
+}
+
+.menu-style {
+  background-color:rgba(51, 24, 49, .99);
+  height:100%;
+  display: flex;
+  padding:50px;
+  flex-direction: column;
+  justify-content: center;
+//   box-shadow: 5px 5px 30px $darkpurple;
+
+    .menu-btn {
+        color:$white;
+        align-self: flex-end;
+        cursor: pointer;
+        position: absolute;
+        top:5%;
+        right:11%;
+    }
+
+    .menu-text{
+        font-size:30px;
+    }
+}

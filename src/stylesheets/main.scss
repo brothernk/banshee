@@ -50,6 +50,12 @@ a {
 //Work  ==========================================================
 @import "../components/Work/work.scss";
 
+//Modal  ==========================================================
+@import "../components/Modal/modal.scss";
+
+//Menu  ==========================================================
+@import "../components/Menu/menu.scss";
+
 //Mobile Responsive  =================================================
 @media only screen and (max-width: 800px) {
     .page {
