@@ -2,8 +2,7 @@
 #what-pg {
   background-color: #f1dac4;
   border-top: 15px solid #785A64;
-  padding: 0;
-  max-height: 100vh; }
+  padding: 0; }
   #what-pg .what-content {
     display: flex;
     justify-content: center;

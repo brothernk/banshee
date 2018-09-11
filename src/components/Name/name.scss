@@ -15,68 +15,60 @@ $mauve:#785A64;
     justify-content: space-around;
     background-color:#2d152c;
 
-    .line-one {
+    .line-one, .line-two, .line-three {
         margin-top:-20vh;
-        width: 105vw;
         height:40vw;
-        border-bottom: 3.1vw solid $orange;
-        border-left: 3.1vw solid $orange;
+        position: absolute;
+    }
+
+    .line-one {
+        width: 105vw;
+        border: 3.1vw solid $orange;
         border-radius: 9vw;
         transform:
             translateX(-63vw)
             rotate(-90deg); 
-        position: absolute;
     }
 
     .line-two {
-        margin-top:-20vh;
         width: 111vw;
-        height:40vw;
-        border-bottom: 2.4vw solid $mauve;
-        border-left: 2.4vw solid $mauve;
+        border: 2.4vw solid $mauve;
         border-radius: 11.5vw;
         transform:
             translateX(-60vw)
             rotate(-90deg);
-        position: absolute;
     }
 
     .line-three {
-        margin-top:-20vh;
         width: 117vw;
-        height:40vw;
-        border-bottom: 2.4vw solid $purple;
-        border-left: 2.4vw solid $purple;
+        border: 2.4vw solid $purple;
         border-radius: 14vw;
         transform:
             translateX(-57vw)
             rotate(-90deg);
-        position: absolute;
     }
 
     .company-name {
         margin:0 auto;
         color:$white;
         font-size:20vw;
-        font-family: "hooligan-jf", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: "hooligan-jf", Impact, 'Arial Narrow Bold', sans-serif;
         text-transform: uppercase;
-        z-index: 1;
     }
 
     .mission-statement{
         color:$orange;
         align-self: flex-end;
         font-size:25px;
-        z-index: 1;
     }
 }
 
 //Mobile Responsive  =================================================
 @media only screen and (max-width: 800px) {
     #landing-pg{
+        justify-content: center;
         .company-name {
-            margin:0;
-            font-size:27vw;
+            font-size:33vw;
         }
         .mission-statement{
             align-self: center;

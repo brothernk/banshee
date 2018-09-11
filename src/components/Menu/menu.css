@@ -51,3 +51,7 @@
     .menu-style .menu-text .menu-nav:hover, .menu-style .menu-text #contact-btn:hover {
       background-color: #331831;
       transition: .15s; }
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    display: none; } }
