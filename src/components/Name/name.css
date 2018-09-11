@@ -3,51 +3,42 @@
   align-items: center;
   justify-content: space-around;
   background-color: #2d152c; }
+  #landing-pg .line-one, #landing-pg .line-two, #landing-pg .line-three {
+    margin-top: -20vh;
+    height: 40vw;
+    position: absolute; }
   #landing-pg .line-one {
-    margin-top: -20vh;
     width: 105vw;
-    height: 40vw;
-    border-bottom: 3.1vw solid #D36135;
-    border-left: 3.1vw solid #D36135;
+    border: 3.1vw solid #D36135;
     border-radius: 9vw;
-    transform: translateX(-63vw) rotate(-90deg);
-    position: absolute; }
+    transform: translateX(-63vw) rotate(-90deg); }
   #landing-pg .line-two {
-    margin-top: -20vh;
     width: 111vw;
-    height: 40vw;
-    border-bottom: 2.4vw solid #785A64;
-    border-left: 2.4vw solid #785A64;
+    border: 2.4vw solid #785A64;
     border-radius: 11.5vw;
-    transform: translateX(-60vw) rotate(-90deg);
-    position: absolute; }
+    transform: translateX(-60vw) rotate(-90deg); }
   #landing-pg .line-three {
-    margin-top: -20vh;
     width: 117vw;
-    height: 40vw;
-    border-bottom: 2.4vw solid #B695AC;
-    border-left: 2.4vw solid #B695AC;
+    border: 2.4vw solid #B695AC;
     border-radius: 14vw;
-    transform: translateX(-57vw) rotate(-90deg);
-    position: absolute; }
+    transform: translateX(-57vw) rotate(-90deg); }
   #landing-pg .company-name {
     margin: 0 auto;
     color: #FFFFFF;
     font-size: 20vw;
-    font-family: "hooligan-jf", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-    z-index: 1; }
+    font-family: "hooligan-jf", Impact, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase; }
   #landing-pg .mission-statement {
     color: #D36135;
     align-self: flex-end;
-    font-size: 25px;
-    z-index: 1; }
+    font-size: 25px; }
 
 @media only screen and (max-width: 800px) {
-  #landing-pg .company-name {
-    margin: 0;
-    font-size: 27vw; }
-  #landing-pg .mission-statement {
-    align-self: center; }
-  #landing-pg .line-one, #landing-pg .line-two, #landing-pg .line-three {
-    display: none; } }
+  #landing-pg {
+    justify-content: center; }
+    #landing-pg .company-name {
+      font-size: 33vw; }
+    #landing-pg .mission-statement {
+      align-self: center; }
+    #landing-pg .line-one, #landing-pg .line-two, #landing-pg .line-three {
+      display: none; } }

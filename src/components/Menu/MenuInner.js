@@ -42,8 +42,7 @@ class MenuInner extends Component {
                 : null }
             </div>
         )
-    }
-    
+    }    
 }
 
 export default MenuInner;

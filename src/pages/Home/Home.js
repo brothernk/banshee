@@ -8,7 +8,6 @@ import Modal from "../../components/Modal/Modal";
 import Menu from "../../components/Menu/Menu";
 
 class Home extends Component {
-  
   render() {
     return (
       <div>

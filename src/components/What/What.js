@@ -2,9 +2,11 @@ import React from "react";
 
 const What = () => (
   <div className="page" id="what-pg">
+  
     <div className="line-one"></div>
     <div className="line-two"></div>
     <div className="line-three"></div>
+
     <div className="what-content">
       <div className="steps">
         <h2>Step 1</h2>
