@@ -76,9 +76,9 @@ class Modal extends Component {
                         <button className="submit-btn" onSubmit={this.handleSubmit}>Submit</button>
                     </form>
                     <div className="social-media">
-                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>

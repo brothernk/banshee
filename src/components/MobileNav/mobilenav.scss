@@ -1,0 +1,58 @@
+// Typekit Fonts =====================================================
+@import url("https://use.typekit.net/lzb1rwt.css");
+
+//Colors =============================================================
+$darkpurple:#331831;
+$orange:#D36135;
+$beige:#f1dac4;
+$purple:#B695AC;
+$white:#FFFFFF;
+$olive: #84732B;
+$mauve:#785A64;
+
+//Mobile Responsive  =================================================
+@media only screen and (min-width: 800px) {
+    .mobilenav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mobilenav {
+        position: fixed;
+        top:0;
+        background-color:$orange;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        z-index: 9999;
+        padding:5px 0;
+        box-shadow: 0 5px 20px -7px $darkpurple;;
+
+        .mobile-item{
+            display: flex;
+            flex-direction: column;
+        }
+
+        p, #contact-btn{
+            color:$beige;
+            text-transform: uppercase;
+            font-size:13px;
+            margin:0 auto;
+            background-color:$orange;
+            border:none;
+            cursor: pointer;
+            font-family:"mr-eaves-modern",sans-serif;
+        }
+
+        .fa-comment {
+            padding:5px 10px 3px 10px;
+        }
+
+        i{
+            color:$darkpurple;
+            font-size:16px;
+            padding:5px 10px;
+        }
+    }
+}

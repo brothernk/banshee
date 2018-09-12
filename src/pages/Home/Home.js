@@ -6,6 +6,7 @@ import What from "../../components/What/What";
 import Work from "../../components/Work/Work";
 // import Modal from "../../components/Modal/Modal";
 import Menu from "../../components/Menu/Menu";
+import MobileNav from "../../components/MobileNav/MobileNav";
 
 class Home extends Component {
   render() {
@@ -18,6 +19,7 @@ class Home extends Component {
         <Work></Work>
         {/* <Modal></Modal> */}
         <Menu></Menu>
+        <MobileNav></MobileNav>
       </div>
     );
   }

@@ -6,6 +6,7 @@
 @import url("https://use.typekit.net/lzb1rwt.css");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 @import url("https://use.typekit.net/lzb1rwt.css");
+@import url("https://use.typekit.net/lzb1rwt.css");
 * {
   padding: 0;
   box-sizing: border-box; }
@@ -86,8 +87,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    right: 0;
-    bottom: 25vh; } }
+    right: 0; } }
 
 #about-pg {
   background-color: #B695AC; }
@@ -373,6 +373,40 @@ a {
 @media only screen and (max-width: 800px) {
   .menu {
     display: none; } }
+
+@media only screen and (min-width: 800px) {
+  .mobilenav {
+    display: none; } }
+
+@media only screen and (max-width: 800px) {
+  .mobilenav {
+    position: fixed;
+    top: 0;
+    background-color: #D36135;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 9999;
+    padding: 5px 0;
+    box-shadow: 0 5px 20px -7px #331831; }
+    .mobilenav .mobile-item {
+      display: flex;
+      flex-direction: column; }
+    .mobilenav p, .mobilenav #contact-btn {
+      color: #f1dac4;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin: 0 auto;
+      background-color: #D36135;
+      border: none;
+      cursor: pointer;
+      font-family: "mr-eaves-modern",sans-serif; }
+    .mobilenav .fa-comment {
+      padding: 5px 10px 3px 10px; }
+    .mobilenav i {
+      color: #331831;
+      font-size: 16px;
+      padding: 5px 10px; } }
 
 @media only screen and (max-width: 800px) {
   .page {
