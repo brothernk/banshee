@@ -15,26 +15,44 @@
       width: 200px;
       margin: 20px; }
   #what-pg .line-one {
-    width: 70vw;
     height: 98.5vh;
     border-bottom: 20px solid #331831;
     border-left: 20px solid transparent;
     position: absolute;
-    right: 0; }
+    right: 0;
+    animation: slidein1 .5s ease-in .15s forwards; }
   #what-pg .line-two {
-    width: 85vw;
     height: 102.5vh;
     border-bottom: 20px solid #785A64;
     border-left: 20px solid transparent;
     position: absolute;
-    right: 0; }
+    right: 0;
+    animation: slidein2 .5s ease-in .25s forwards; }
   #what-pg .line-three {
-    width: 95vw;
     height: 106.5vh;
     border-bottom: 20px solid #D36135;
     border-left: 20px solid transparent;
     position: absolute;
-    right: 0; }
+    right: 0;
+    animation: slidein3 .5s ease-in .35s forwards; }
+
+@keyframes slidein1 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70vw; } }
+
+@keyframes slidein2 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 85vw; } }
+
+@keyframes slidein3 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 95vw; } }
 
 @media only screen and (max-width: 800px) {
   .what-content {

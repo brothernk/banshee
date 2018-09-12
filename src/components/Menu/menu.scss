@@ -1,6 +1,5 @@
 // Typekit Fonts =====================================================
 @import url("https://use.typekit.net/lzb1rwt.css");
-@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 
 //Colors =============================================================
 $darkpurple:#331831;
@@ -50,6 +49,7 @@ $mauve:#785A64;
   justify-content: space-around;
   align-items: center;
   border-left:5px solid #bd572f;
+  border-right:5px solid #bd572f;
 
     .menu-logo{
         max-width: 65px;
@@ -62,7 +62,7 @@ $mauve:#785A64;
         
         .menu-nav, #contact-btn {
             margin: 0;
-            padding:8px 65px;
+            padding:8px 85px;
             width:100%;
             font-size:28px;
             color:$beige;
@@ -77,6 +77,10 @@ $mauve:#785A64;
         .menu-nav:hover, #contact-btn:hover {
             background-color:$darkpurple;
             transition: .15s;
+        }
+
+        #contact-btn{
+            outline: none;
         }
     }
 }
