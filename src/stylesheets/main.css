@@ -292,6 +292,9 @@ a {
       background-color: #695c22;
       transform: scale(0.99);
       transition: .15s; }
+    .modal-background .modal-style button:active, .modal-background .modal-style button:focus {
+      outline: none !important;
+      border: none; }
     .modal-background .modal-style .social-media {
       padding: 20px;
       position: absolute;

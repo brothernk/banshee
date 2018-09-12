@@ -95,6 +95,11 @@ $mauve:#785A64;
             transition:.15s;
         }
 
+        button:active, button:focus{
+            outline: none !important;
+            border: none;
+        }
+
         .social-media{
             padding:20px;
             position: absolute;
