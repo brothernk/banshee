@@ -27,15 +27,15 @@ class MenuInner extends Component {
         return (
             <div>
                 {this.props.isOpen ?  
-                    <div className="menu-background" style={this.state.background} onClick={this.props.onClose}>
+                    <div className="menu-background" style={this.state.background}>
                         <div className="menu-style" style={this.state.modal}>
                             <img className="menu-logo" src={bansheelogo} alt="Banshee"/>
                             <div className="menu-text">
-                                <a href="#landing-pg" className="menu-nav">Home</a>
-                                <a href="#about-pg" className="menu-nav">About Us</a>
-                                <a href="#what-pg" className="menu-nav">What We Do</a>
-                                <a href="#work-pg" className="menu-nav">Our Work</a>
-                                <Modal></Modal>
+                                <a href="#landing-pg" onClick={this.props.onClose} className="menu-nav">Home</a>
+                                <a href="#about-pg" onClick={this.props.onClose} className="menu-nav">About Us</a>
+                                <a href="#what-pg" onClick={this.props.onClose} className="menu-nav">What We Do</a>
+                                <a href="#work-pg" onClick={this.props.onClose} className="menu-nav">Our Work</a>
+                                <Modal onClick={this.props.onClose}></Modal>
                             </div>
                         </div>
                     </div>

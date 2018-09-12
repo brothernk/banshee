@@ -64,13 +64,22 @@ class Modal extends Component {
         const modal = (
             <div className="modal-background" style={this.state.background}>
                 <div className='modal-style' style={this.state.modal}>
-                    <div className="modal-title"></div>
-                    <div className="modal-btn" onClick={this.handleClick}>X</div>
+                    <div className="modal-btn" onClick={this.handleClick}><i class="fas fa-times"></i></div>
+                    <div className="modal-title">Contact Us</div>
                     <form onSubmit={this.handleSubmit}>
-                        <input type="text" name="name" onChange={this.handleChange} value={this.state.name} placeholder="Young Bill" />
-                        <input type="text" name="email" onChange={this.handleChange} value={this.state.email} placeholder="HadToBeYou@gmail.com" />
-                        <button onSubmit={this.handleSubmit}>Submit</button>
+                        <div className="form-text">
+                            <p>Name</p>
+                            <input className="form-entry" type="text" name="name" onChange={this.handleChange} value={this.state.name} placeholder="Young Bill" />
+                            <p>Email</p>
+                            <input className="form-entry" type="text" name="email" onChange={this.handleChange} value={this.state.email} placeholder="HadToBeYou@gmail.com" />
+                        </div>
+                        <button className="submit-btn" onSubmit={this.handleSubmit}>Submit</button>
                     </form>
+                    <div className="social-media">
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a className="social-media-link" href="" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    </div>
                 </div>
             </div>
         )

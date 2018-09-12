@@ -23,7 +23,8 @@
     border-radius: 14vw;
     transform: translateX(-57vw) rotate(-90deg); }
   #landing-pg .company-name {
-    margin: 0 auto;
+    margin: auto;
+    margin: 5vw 0 0 10vw;
     color: #FFFFFF;
     font-size: 20vw;
     font-family: "hooligan-jf", Impact, 'Arial Narrow Bold', sans-serif;
@@ -37,7 +38,8 @@
   #landing-pg {
     justify-content: center; }
     #landing-pg .company-name {
-      font-size: 33vw; }
+      font-size: 33vw;
+      margin: 0 auto; }
     #landing-pg .mission-statement {
       align-self: center; }
     #landing-pg .line-one, #landing-pg .line-two, #landing-pg .line-three {
