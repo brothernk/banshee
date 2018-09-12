@@ -21,28 +21,32 @@ $mauve:#785A64;
     .mobilenav {
         position: fixed;
         top:0;
-        background-color:$orange;
+        background-color:#2d152c;
         width:100%;
         display: flex;
         justify-content: space-around;
         z-index: 9999;
         padding:5px 0;
-        box-shadow: 0 5px 20px -7px $darkpurple;;
+        box-shadow: 0 5px 20px -7px #2d152c;;
 
         .mobile-item{
             display: flex;
             flex-direction: column;
         }
 
-        p, #contact-btn{
-            color:$beige;
+        .mobile-item p, #contact-btn{
+            color:$mauve;
             text-transform: uppercase;
             font-size:13px;
             margin:0 auto;
-            background-color:$orange;
+            background-color:#2d152c;
             border:none;
             cursor: pointer;
             font-family:"mr-eaves-modern",sans-serif;
+        }
+
+        .form-text p{
+            margin:0 3vw;
         }
 
         .fa-comment {
@@ -50,7 +54,7 @@ $mauve:#785A64;
         }
 
         i{
-            color:$darkpurple;
+            color:$beige;
             font-size:16px;
             padding:5px 10px;
         }

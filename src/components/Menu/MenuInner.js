@@ -27,7 +27,7 @@ class MenuInner extends Component {
         return (
             <div>
                 {this.props.isOpen ?  
-                    <div className="menu-background" style={this.state.background}>
+                    <div className="menu-background" style={this.state.background} >
                         <div className="menu-style" style={this.state.modal}>
                             <img className="menu-logo" src={bansheelogo} alt="Banshee"/>
                             <div className="menu-text">
