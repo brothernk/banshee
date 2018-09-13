@@ -4,14 +4,7 @@ import Modal from '../../components/Modal/Modal';
 class MobileNav extends Component {
   render() {
     return (
-      <div className="mobilenav">
-        <div className="mobile-item">
-            <a href="#landing-pg" className="menu-nav">
-                <i className="fas fa-home"></i>
-                <p>Home</p>
-            </a>
-        </div>
-        
+      <div className="mobilenav">        
         <div className="mobile-item">
             <a href="#about-pg" className="menu-nav">
                 <i className="fas fa-user-alt"></i>
@@ -22,7 +15,6 @@ class MobileNav extends Component {
         <div className="mobile-item">
             <a href="#what-pg"className="menu-nav">  
                 <i className="fas fa-question"></i>
-                {/* <i className="fas fa-question-circle"></i> */}
                 <p>What</p>
             </a>
         </div>

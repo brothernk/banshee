@@ -64,7 +64,7 @@ class Modal extends Component {
         const modal = (
             <div className="modal-background" style={this.state.background}>
                 <div className='modal-style' style={this.state.modal}>
-                    <div className="modal-btn" onClick={this.handleClick}><i class="fas fa-times"></i></div>
+                    <div className="modal-btn" onClick={this.handleClick}><i className="fas fa-times"></i></div>
                     <div className="modal-title">Contact Us</div>
                     <form onSubmit={this.handleSubmit}>
                         <div className="form-text">
